@@ -28,7 +28,7 @@ class Main {
     boolean sunny = scan.nextBoolean();
     int timeFeelLikeExercising = 7;
     System.out.print(name);
-    
+
       if (tempurature < 90 && sunny == true)
        //made if statment for id birthday is eaqual to todays date
       {
@@ -67,7 +67,7 @@ class Main {
               System.out.print(sprint);
               }
                 System.out.println(" seconds.");
-              }             
+              }                  
  }
 }
   
