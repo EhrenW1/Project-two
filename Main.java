@@ -19,29 +19,36 @@ class Main {
      System.out.print("Go out side and");
      //wrote line of code that tells you to go outside if its sunny and below 90
    }else{
-     System.out.print("Stay inside");
+     System.out.print("Stay inside to walk and");
      // else stament that tells you to stay inside if if statment values dont match
         }
     if (fealLikeBikeing == true || fealLikeSkateing == true )
    //made if statment that uses that prints "Grab your bike or you skatboard" based on if you want to bike or if you want to skete
    {
-     System.out.print(" grab your bike or you skatboard.");
+     System.out.print(" dont grab your bike or you skatboard if your inside but if your outside grab them .");
    }else{
      System.out.print(" dont grab anything.");
      // else stament that tells you not to grab anything
         }
-     if ( dayNumberLastWalked != dayNumber - 1  )
-   //made if statment that tells you to walk for an extra 10 minutes if you didnt walk yesterday.
-     {
-     System.out.print(" Since you didnt walk yesterday Walk for an extra 10 minutes.");
-     }else{
-     // else stament that prints nothing if you did exercise yesterday
-          }
-          System.out.print(" You should walk for ");
+        System.out.print(" You should walk for ");
               while (timeFeelLikeWalking < 20)
 {
    timeFeelLikeWalking++; 
 }
 System.out.print(timeFeelLikeWalking + " minutes");
+     if ( dayNumberLastWalked != dayNumber - 1  )
+   //made if statment that tells you to walk for an extra 10 minutes if you didnt walk yesterday.
+     {
+     System.out.print(" However, since you didnt walk yesterday Walk for an extra 10 minutes.");
+     }else{
+     // else stament that prints nothing if you did exercise yesterday
+     }
+        {
+     for(int sprint = 1; sprint <= 3; sprint++)
+     {
+        System.out.print(sprint);
    }
   }
+ }
+}
+  
