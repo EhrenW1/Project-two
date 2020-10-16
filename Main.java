@@ -8,6 +8,8 @@ class Main {
  boolean rainy = false;
  boolean tired = false;
  boolean walking = false;
+ int dayNumber = 15;
+ int dayNumberLastWalked = 14;
  // Inserted variables for later
  // these variables include time, tenourature, if its sunny,rainy, and if your walking or biking.
    if (tempurature < 90 && sunny == true)
@@ -26,6 +28,13 @@ class Main {
      }else{
      System.out.print(" dont grab anything.");
      // else stament that tells you not to grab anything
+   }
+     if ( dayNumberLastWalked != dayNumber - 1  )
+   //made if statment that tells you to walk for an extra 10 minutes if you didnt walk yesterday.
+   {
+     System.out.print(" Walk for an extra 10 minutes.");
+     }else{
+     // else stament that prints nothing if you did exercise yesterday
    }
    }
   }
