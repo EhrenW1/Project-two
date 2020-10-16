@@ -2,18 +2,30 @@ class Main {
   public static void main(String[] args) {
  int time = 1400;
  int tempurature = 80;
- boolean bikeing = true; 
- boolean sunny = false;
- boolean rainy = true;
+ boolean fealLikeBikeing = true;
+ boolean fealLikeSkateing = true; 
+ boolean sunny = true;
+ boolean rainy = false;
  boolean tired = false;
  boolean walking = false;
  // Inserted variables for later
  // these variables include time, tenourature, if its sunny,rainy, and if your walking or biking.
-  if (time < 1800 && tempurature < 90)
-   //made if statment for if the temp is below 90 and the time is before 6 oclock 
+   if (tempurature < 90 && sunny == true)
+   //made if statment for id birthday is eaqual to todays date
    {
-     System.out.print(" Go out side.");
-    // if the variables match conditions it prints go out side 
-
-   }else{
-     System.out.print(" Stay inside.");
+     System.out.print("Go out side and");
+     //wrote line of code that tells you to go outside if its sunny and below 90
+    }else{
+     System.out.print("Stay inside");
+     // else stament that tells you to stay inside if if statment values dont match
+   }
+      if (fealLikeBikeing == true || fealLikeSkateing == true )
+   //made if statment that uses that prints "Grab your bike or you skatboard" based on if you want to bike or if you want to skete
+   {
+     System.out.print(" grab your bike or you skatboard.");
+     }else{
+     System.out.print(" dont grab anything.");
+     // else stament that tells you not to grab anything
+   }
+   }
+  }
