@@ -46,28 +46,28 @@ class Main {
         System.out.print(" dont grab anything.");
         // else stament that tells you not to grab anything
              }
-        System.out.print(" You should exercise for ");
-          while (timeFeelLikeExercising < 20)
-          {
-          timeFeelLikeExercising++; 
-          }
-          System.out.print(timeFeelLikeExercising + " minutes. ");
-            if ( dayNumberLastExercised != dayNumber - 1  )
-            //made if statment that tells you to walk for an extra 10 minutes if you didnt walk yesterday.
+          System.out.print(" You should exercise for ");
+            while (timeFeelLikeExercising < 20)
             {
-            System.out.print(" However, since you didnt exercise yesterday exercise for an extra 10 minutes.");
-            }else{
-            System.out.println("");
-            // else stament that prints nothing if you did exercise yesterday
-                 }
-              System.out.print(" You should also sprint for ");
+            timeFeelLikeExercising++; 
+            }
+            System.out.print(timeFeelLikeExercising + " minutes. ");
+              if ( dayNumberLastExercised != dayNumber - 1  )
+              //made if statment that tells you to walk for an extra 10 minutes if you didnt walk yesterday.
               {
-              for(int sprint = 1; sprint <= 3; sprint++)
-              {
-              System.out.print(sprint);
-              }
+              System.out.print(" However, since you didnt exercise yesterday exercise for an extra 10 minutes.");
+              }else{
+              System.out.println("");
+              // else stament that prints nothing if you did exercise yesterday
+                   }
+                System.out.print(" You should also sprint for ");
+                {
+                for(int sprint = 1; sprint <= 3; sprint++)
+                {
+                System.out.print(sprint);
+                }
                 System.out.println(" seconds.");
-              }                  
+                }                      
  }
 }
   
