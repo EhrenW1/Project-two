@@ -35,19 +35,22 @@ class Main {
 {
    timeFeelLikeWalking++; 
 }
-System.out.print(timeFeelLikeWalking + " minutes");
+System.out.print(timeFeelLikeWalking + " minutes. ");
      if ( dayNumberLastWalked != dayNumber - 1  )
    //made if statment that tells you to walk for an extra 10 minutes if you didnt walk yesterday.
      {
      System.out.print(" However, since you didnt walk yesterday Walk for an extra 10 minutes.");
      }else{
+    System.out.println("");
      // else stament that prints nothing if you did exercise yesterday
      }
+     System.out.print("You should also sprint for ");
         {
      for(int sprint = 1; sprint <= 3; sprint++)
      {
         System.out.print(sprint);
    }
+   System.out.print("seconds.");
   }
  }
 }
